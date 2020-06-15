@@ -84,7 +84,7 @@ class Retail extends Component {
         render() {
             const retail = this.state.products.map(product => {
                 return (
-                    <div className="col">
+                    <div key={product.id} className="col">
                         <img src={product.image} alt={product.name} />
                         <h2>{product.name}</h2>
                         <h4>{product.style}</h4>
