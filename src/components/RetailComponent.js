@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import { Card, CardImg, CardImgOverlay, CardTitle, Breadcrumb, BreadcrumbItem, InputGroupButtonDropdown } from 'reactstrap';
 
 class Retail extends Component {
     constructor(props) {
         super(props);
-        this.state = {};
+        this.state = {
             products: [
                 {
                     id: 0,
@@ -56,11 +55,11 @@ class Retail extends Component {
                 },
                 {
                     id: 6,
-                    name: 'Dark Roast',
+                    name: 'Tre Caffè Apparel',
                     image: 'assets/images/comingsoon.jpeg',
-                    style: 'Ground',
-                    size: '1 lb',
-                    description: "Let this dark roast boost your mood and spirits with an aroma and taste that won't disappoint."
+                    style: 'Hoodie',
+                    size: 'Various',
+                    description: "Show us your love for Tre Caffè!"
                 },
                 {
                     id: 7,
@@ -79,11 +78,29 @@ class Retail extends Component {
                     description: "Because everyone knows coffee is life."
                 },                                             
             ]
+        };
     }
+    
+        render() {
+            const retail = this.state.products.map(product => {
+                return (
+                    <div className="col">
+                        <img src={product.image} alt={product.name} />
+                        <h2>{product.name}</h2>
+                        <h4>{product.style}</h4>
+                        <p>{product.description}</p>
+                    </div>
+                );
+            });
 
-    render() {
         return (
-
+            <div className="container">
+                <div className="row">
+                    {retail}
+                </div>
+            </div>
         );
     }
 }
+
+export default Retail;
