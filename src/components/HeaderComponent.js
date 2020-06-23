@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import { Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem, Jumbotron } from 'reactstrap';
-import { NavLink } from 'react-router-dom';
-import { render } from 'react-dom';
+import { Nav, Navbar, NavbarToggler, Collapse, NavItem, Jumbotron } from 'reactstrap';
+import { NavLink } from 'react-router-dom'
 
 class Header extends Component {
 
@@ -21,7 +20,7 @@ class Header extends Component {
     }
 
     render() {
-        retrun (
+        return (
             <React.Fragment>
                 <Jumbotron fluid>
                     <div className="container">
@@ -31,10 +30,31 @@ class Header extends Component {
                 </Jumbotron>
                 <Navbar dark sticky="top" expand="md">
                     <div className="container">
-                        
+                        <NavbarToggler onClick={this.toggleNav} />
+                        <Collapse isOpen={this.state.isNavOpen} navbar >
+                            <Nav navbar>
+                                <NavItem>
+                                   <NavLink className="nav-link" to="/home">Home</NavLink>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLink className="nav-link" to="/team">Meet the Team</NavLink>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLink className="nav-link" to="/menu">Menu</NavLink>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLink className="nav-link" to="/location">Location</NavLink>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLink className="nav-link" to="/retail">Retail</NavLink>
+                                </NavItem>
+                            </Nav>
+                        </Collapse>
                     </div>
                 </Navbar>
             </React.Fragment>
         );
     }
 }
+
+export default Header;
