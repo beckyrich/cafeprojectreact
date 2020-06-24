@@ -1,14 +1,11 @@
-import React, { Component } from 'react';
-import { Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
+import React from 'react';
 
-class Home extends Component {
-    render(){
-        return(
-            <div>
-                Hello world! 
-            </div>
-        );
-    }
+function Home(props) {
+    return (
+        <div className="container">
+            <h4>Home</h4>
+        </div>
+    );
 }
 
 export default Home;
