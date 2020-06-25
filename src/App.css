@@ -10,9 +10,9 @@
   font-family: 'IM Fell DW Pica', serif;
 }
 
-.custom-center {
+.center{
   margin: auto;
-  font-family: serif;
+  text-align: center;
 }
 
 #accordCard {
@@ -88,7 +88,7 @@
 }
 
 .site-footer {
-  padding: 20px 0;
+  padding: 20px 0px;
   background-color: #EEEEEE;
   color: #00ADB5; 
   font-family: 'IM Fell DW Pica', serif;

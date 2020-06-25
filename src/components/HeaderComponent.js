@@ -23,7 +23,7 @@ class Header extends Component {
         return (
             <React.Fragment>
                 <Jumbotron fluid>
-                    <div className="container">
+                    <div className="container center">
                         <h1>Tre Caffè</h1>
                         <p className="lead">Get Up! Get Coffee! Be Happy!</p>
                     </div>
@@ -32,7 +32,7 @@ class Header extends Component {
                     <div className="container">
                         <NavbarToggler onClick={this.toggleNav} />
                         <Collapse isOpen={this.state.isNavOpen} navbar>
-                            <Nav className="custom-center" pills navbar>
+                            <Nav className="center" pills navbar>
                                 <NavItem>
                                    <NavLink className="nav-link" to="/home">Home</NavLink>
                                 </NavItem>

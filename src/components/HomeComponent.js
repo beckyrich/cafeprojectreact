@@ -1,11 +1,26 @@
 import React from 'react';
+import { HomeCarousel } from './CarouselComponent';
+
 
 function Home(props) {
+
     return (
-        <div className="container">
-            <h4>Home</h4>
-        </div>
+        <React.Fragment>
+             <div className="container-fluid p-0 m-0">
+                <img class="img-fluid" src="./assets/images/home_bg_nav.jpg" alt="coffee"/>
+            </div>
+            <div className="container">
+                <div className="row">
+                    <div className="col-sm-6 col-lg-3">
+                        <HomeCarousel />
+                    </div>
+                </div>
+                
+            </div>
+        </React.Fragment>
+       
     );
+
 }
 
 export default Home;
