@@ -28,11 +28,11 @@ class Header extends Component {
                         <p className="lead">Get Up! Get Coffee! Be Happy!</p>
                     </div>
                 </Jumbotron>
-                <Navbar dark sticky="top" expand="md">
+                <Navbar className="navbar-dark bg-dark" sticky="top" expand="md">
                     <div className="container">
                         <NavbarToggler onClick={this.toggleNav} />
                         <Collapse isOpen={this.state.isNavOpen} navbar>
-                            <Nav navbar>
+                            <Nav className="custom-center" pills navbar>
                                 <NavItem>
                                    <NavLink className="nav-link" to="/home">Home</NavLink>
                                 </NavItem>

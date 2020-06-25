@@ -1,38 +1,134 @@
-.App {
-  text-align: center;
+#standardStyle {
+  background-color: grey;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.jumbotron {
+  margin: 0;
+  padding: 30px;
+  background-color: #EEEEEE;
+  color: #00ADB5; 
+  font-family: 'IM Fell DW Pica', serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.custom-center {
+  margin: auto;
+  font-family: serif;
+}
+
+#accordCard {
+  background-color:#EEEEEE;
+  color:#393E46; 
+  font-family: serif;
+  border-color: #393E46;
+}
+
+#headingOne, #headingTwo, #headingThree {
+  background-color: #00ADB5;
+}
+
+#feedbackBtn {
+  background-color: #00ADB5;
+  color: #EEEEEE;
+}
+
+#accordCardBtn {
+  color: #EEEEEE;
+  background-color: #393E46;
+}
+
+#cardTitleQF {
+  font-family: 'Courgette', cursive;
+}
+
+#cardQF {
+  background-color: #EEEEEE;
+  color: #393E46;
+  font-family: serif;
+  border: none;
+}
+
+#cardHomeBtn {
+  font-family: serif;
+}
+
+#cardOver {
+  background-color: #EEEEEE;
+}
+
+#toTop {
+  color: #00ADB5; 
+  font-family: 'IM Fell DW Pica', serif;
+
+}
+#modalInitBtn {
+  font-family: serif;
+}
+
+#modalContactForm {
+  background-color: #393E46;
+  padding: 20px 0;
+
+}
+
+#modalContactFormLabel {
+  background-color: #EEEEEE;
+  color: #00ADB5; 
+  font-family: 'IM Fell DW Pica', serif;
+
+}
+
+#modalContactBody {
+  background-color: #00ADB5;
+  color: #222831;
+  font-family: 'IM Fell DW Pica', serif;
+}
+
+#modalSubmmitBtn {
+  background-color: #00ADB5;
+}
+
+.site-footer {
+  padding: 20px 0;
+  background-color: #EEEEEE;
+  color: #00ADB5; 
+  font-family: 'IM Fell DW Pica', serif;
+}
+
+#ftContact {
+  color:#222831;
+  font-family: serif;
+}
+
+.map-container-4{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.map-container-4 iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
   }
-  to {
-    transform: rotate(360deg);
-  }
+  
+.card-header1{
+  background-color: rgb(105,105,105);
+  color:white;
 }
+
+.card-header2 {
+  background-color:rgb(105,105,105);
+  color:white;
+}
+
+.card-header3 {
+  background-color:rgb(105,105,105);
+  color:white;
+}
+
+.card-header4 {
+  background-color:rgb(105,105,105);
+  color:white;
+}    
