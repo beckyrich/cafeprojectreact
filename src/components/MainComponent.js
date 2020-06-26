@@ -3,8 +3,6 @@ import Header from './HeaderComponent';
 import Footer from './FooterComponent';
 import Home from './HomeComponent';
 import Retail from './RetailComponent';
-import HomeCarousel from './CarouselComponent';
-import { ITEMS } from '../shared/carousel';
 import { PRODUCTS } from '../shared/products';
 import { Switch, Route, Redirect } from 'react-router-dom';
 
@@ -12,8 +10,7 @@ class Main extends Component {
     constructor(props){
         super(props);
         this.state = {
-            products: PRODUCTS,
-            items: ITEMS
+            products: PRODUCTS
         };
     }
 
