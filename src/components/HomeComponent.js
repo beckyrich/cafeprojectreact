@@ -1,6 +1,6 @@
 import React from 'react';
 import { HomeCarousel } from './CarouselComponent';
-import FunCoffee from './CoffeeInfo';
+import Coffee from './CoffeeInfoComponent';
 
 
 function Home(props) {
@@ -17,7 +17,7 @@ function Home(props) {
                     </div>
                 </div>
                 <div className="containter">
-                    <FunCoffee funinfo={this.state.funinfo}/>
+                    <Coffee />
                 </div>
             </div>
         </React.Fragment>
