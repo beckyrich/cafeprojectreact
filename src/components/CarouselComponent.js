@@ -4,23 +4,27 @@ import {  Carousel, CarouselItem, CarouselControl, CarouselIndicators, CarouselC
 const items = [
     {
         src: "./assets/images/barista.jpg",
-        altText: "slide 1",
-        caption: "slide 1"
+        altText: "Barista",
+        caption: "Barista",
+        captext: "Brewing up something good!"
+
     },
     {
         src: "./assets/images/inside.jpg",
-        altText: "slide 2",
-        caption: "slide 2"
+        altText: "Inside Seating",
+        caption: "Inside Seating",
+        captext: "Enjoy our spacious inside seating!"
     },
     {
         src: "./assets/images/outsided.jpg",
-        altText: "slide 3",
-        caption: "slide 3"
+        altText: "Outside Seating",
+        caption: "Outside Seating",
+        captext: "Get some fresh air on our patio!"
     },
     {
         src: "./assets/images/icedlatte.jpg",
-        altText: "slide 4",
-        caption: "slide 4"
+        altText: "Iced Latte",
+        caption: "Refresh with an iced drink!"
     }
 ];
 
@@ -52,8 +56,8 @@ export const HomeCarousel = (props) => {
           onExited={() => setAnimating(false)}
           key={item.src}
         >
-          <img src={item.src} alt={item.altText} />
-          <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
+          <img src={item.src} alt={item.altText} className="d-block w-100"/>
+          <CarouselCaption captionText={item.captext} captionHeader={item.caption} className="textTeal" />
         </CarouselItem>
       );
     });

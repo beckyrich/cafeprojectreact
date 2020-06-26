@@ -1,7 +1,8 @@
+/* used*/
 #standardStyle {
   background-color: grey;
 }
-
+/* used*/
 .jumbotron {
   margin: 0;
   padding: 30px;
@@ -9,10 +10,15 @@
   color: #00ADB5; 
   font-family: 'IM Fell DW Pica', serif;
 }
-
+/* used*/
 .center{
   margin: auto;
   text-align: center;
+}
+/* used*/
+.textTeal {
+  color: #00ADB5;
+  font-family: 'Courgette', cursive;
 }
 
 #accordCard {
@@ -35,16 +41,17 @@
   color: #EEEEEE;
   background-color: #393E46;
 }
-
+/*used*/
 #cardTitleQF {
   font-family: 'Courgette', cursive;
 }
-
+/*used*/
 #cardQF {
   background-color: #EEEEEE;
   color: #393E46;
   font-family: serif;
   border: none;
+  padding-top: 20px;
 }
 
 #cardHomeBtn {

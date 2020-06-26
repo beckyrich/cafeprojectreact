@@ -8,16 +8,16 @@ function Home(props) {
     return (
         <React.Fragment>
              <div className="container-fluid p-0 m-0">
-                <img class="img-fluid" src="./assets/images/home_bg_nav.jpg" alt="coffee"/>
+                <img className="img-fluid" src="./assets/images/home_bg_nav.jpg" alt="coffee"/>
             </div>
             <div className="container-fluid p-0 m-0">
                 <HomeCarousel />
             </div>
-            <div className="container" id="cardQF">
+            <div className="container-fluid p-0 m-0" id="cardQF">
                 <Coffee />
             </div>
             <div className="container-fluid p-0 m-0">
-                <img class="img-fluid" src="./assets/images/img2.jpg" alt="coffee"/>
+                <img className="img-fluid" src="./assets/images/img2.jpg" alt="coffee"/>
             </div>
         </React.Fragment>
        

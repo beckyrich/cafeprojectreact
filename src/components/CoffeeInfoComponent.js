@@ -31,7 +31,7 @@ class Coffee extends Component {
         render() {
             const coffee = this.state.funinfo.map(info => {
                 return (
-                    <div key={info.id} className="col-md-5 m-1" >
+                    <div key={info.id} className="col-md-6" >
                         <Card className="center" id="cardQF">
                             <CardImg width="100%" src={info.image} alt={info.name} />
                             <CardBody>
