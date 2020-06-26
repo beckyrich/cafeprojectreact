@@ -1,5 +1,6 @@
 import React from 'react';
 import { HomeCarousel } from './CarouselComponent';
+import FunCoffee from './CoffeeInfo';
 
 
 function Home(props) {
@@ -15,7 +16,9 @@ function Home(props) {
                         <HomeCarousel />
                     </div>
                 </div>
-                
+                <div className="containter">
+                    <FunCoffee funinfo={this.state.funinfo}/>
+                </div>
             </div>
         </React.Fragment>
        
