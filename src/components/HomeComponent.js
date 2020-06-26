@@ -11,7 +11,7 @@ function Home(props) {
             </div>
             <div className="container">
                 <div className="row">
-                    <div className="col-sm-6 col-lg-3">
+                    <div className="col d-block w-100">
                         <HomeCarousel />
                     </div>
                 </div>

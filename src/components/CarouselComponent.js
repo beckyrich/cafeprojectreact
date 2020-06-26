@@ -1,30 +1,16 @@
 import React, { useState } from 'react';
 import {  Carousel, CarouselItem, CarouselControl, CarouselIndicators, CarouselCaption } from 'reactstrap';
 
-const items = [
-    {
-        src: "./assets/images/img/barista.jpg",
-        altText: "slide 1",
-        caption: "slide 1"
-    },
-    {
-        src: "./assets/images/img/inside.jpg",
-        altText: "slide 2",
-        caption: "slide 2"
-    },
-    {
-        src: "./assets/images/img/outsided.jpg",
-        altText: "slide 3",
-        caption: "slide 3"
-    },
-    {
-        src: "./assets/images/img/icedlatte.jpg",
-        altText: "slide 4",
-        caption: "slide 4"
-    }
-];
 
-export const HomeCarousel = (props) => {
+class HomeCarousel extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+
+    };
+  }
+  render() {
+
     const [activeIndex, setActiveIndex] = useState(0);
     const [animating, setAnimating] = useState(false);
   
@@ -57,7 +43,7 @@ export const HomeCarousel = (props) => {
         </CarouselItem>
       );
     });
-  
+
     return (
       <Carousel
         activeIndex={activeIndex}
@@ -71,6 +57,9 @@ export const HomeCarousel = (props) => {
       </Carousel>
     );
   };
+}
+    
+   
 
-  
+  export default HomeCarousel;
 
