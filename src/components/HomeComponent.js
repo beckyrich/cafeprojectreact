@@ -20,8 +20,7 @@ function Home(props) {
                 <img className="img-fluid" src="./assets/images/img2.jpg" alt="coffee" />
             </div>
         </React.Fragment>
-       
-    )
+    );
 }
 
 export default Home;
