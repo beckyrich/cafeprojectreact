@@ -11,6 +11,7 @@ function Home(props) {
                 <img class="img-fluid" src="./assets/images/home_bg_nav.jpg" alt="coffee"/>
             </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
             <div className="container">
                 <div className="row">
                     <div className="col-sm-6 col-lg-3">
@@ -21,6 +22,8 @@ function Home(props) {
                     <FunCoffee funinfo={this.state.funinfo}/>
                 </div>
 =======
+=======
+>>>>>>> 24da5bf11da0c55f2ada07a4dc57d83df683e306
             <div className="container-fluid p-0 m-0">
                 <HomeCarousel />
             </div>
@@ -29,6 +32,9 @@ function Home(props) {
             </div>
             <div className="container-fluid p-0 m-0">
                 <img class="img-fluid" src="./assets/images/img2.jpg" alt="coffee"/>
+<<<<<<< HEAD
+>>>>>>> 24da5bf11da0c55f2ada07a4dc57d83df683e306
+=======
 >>>>>>> 24da5bf11da0c55f2ada07a4dc57d83df683e306
             </div>
         </React.Fragment>
