@@ -13,7 +13,7 @@ function Home(props) {
             <div className="container-fluid p-0 m-0">
                 <HomeCarousel />
             </div>
-            <div className="containter" id="cardQF">
+            <div className="container" id="cardQF">
                 <Coffee />
             </div>
             <div className="container-fluid p-0 m-0">
