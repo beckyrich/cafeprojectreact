@@ -2,7 +2,7 @@ export const PRODUCTS = [
     {
         id: 0,
         name: 'Morning Blend',
-        image: 'assets/images/comingsoon.jpeg',
+        image: '/assets/images/comingsoon.jpeg',
         style: 'Ground',
         size: '1 lb',
         description: "Start your morning off right with this medium roast that will carry you through your day."
@@ -10,7 +10,7 @@ export const PRODUCTS = [
     {
         id: 1,
         name: 'Morning Blend',
-        image: 'assets/images/comingsoon.jpeg',
+        image: '/assets/images/comingsoon.jpeg',
         style: 'Whole Bean',
         size: '1 lb',
         description: "Start your morning off right with this medium roast that will carry you through your day."

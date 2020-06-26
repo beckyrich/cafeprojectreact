@@ -3,22 +3,22 @@ import {  Carousel, CarouselItem, CarouselControl, CarouselIndicators, CarouselC
 
 const items = [
     {
-        src: "./assets/images/img/barista.jpg",
+        src: "./assets/images/barista.jpg",
         altText: "slide 1",
         caption: "slide 1"
     },
     {
-        src: "./assets/images/img/inside.jpg",
+        src: "./assets/images/inside.jpg",
         altText: "slide 2",
         caption: "slide 2"
     },
     {
-        src: "./assets/images/img/outsided.jpg",
+        src: "./assets/images/outsided.jpg",
         altText: "slide 3",
         caption: "slide 3"
     },
     {
-        src: "./assets/images/img/icedlatte.jpg",
+        src: "./assets/images/icedlatte.jpg",
         altText: "slide 4",
         caption: "slide 4"
     }

@@ -10,15 +10,14 @@ function Home(props) {
              <div className="container-fluid p-0 m-0">
                 <img class="img-fluid" src="./assets/images/home_bg_nav.jpg" alt="coffee"/>
             </div>
-            <div className="container">
-                <div className="row">
-                    <div className="col-sm-6 col-lg-3">
-                        <HomeCarousel />
-                    </div>
-                </div>
-                <div className="containter">
-                    <Coffee />
-                </div>
+            <div className="container-fluid p-0 m-0">
+                <HomeCarousel />
+            </div>
+            <div className="containter" id="cardQF">
+                <Coffee />
+            </div>
+            <div className="container-fluid p-0 m-0">
+                <img class="img-fluid" src="./assets/images/img2.jpg" alt="coffee"/>
             </div>
         </React.Fragment>
        
