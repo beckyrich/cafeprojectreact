@@ -29,7 +29,7 @@ class Accordion extends Component {
 
     toggle(e) {
         let event = e.target.dataset.event;
-        this.setState({ collapse: this.state.collapse === Number(event) ? 0 : Number(event) });
+        this.setState({ collapse: this.state.collapse === Number(event) ? -1 : Number(event) });
     }
 
    render() {
@@ -38,8 +38,8 @@ class Accordion extends Component {
            <div className="container">
                {cards.map(index => {
                    return(
-                       <Card key={index.id}>
-                           <CardHeader onClick={this.toggle} data-event={index.id}>{index.header}</CardHeader>
+                       <Card id="accordCard" key={index.id}>
+                           <CardHeader id="headingTwo" onClick={this.toggle} data-event={index.id}>{index.header}</CardHeader>
                            <Collapse isOpen={collapse === index.id}>
                                 <CardBody>{index.message}</CardBody>
                            </Collapse>

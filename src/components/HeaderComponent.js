@@ -34,19 +34,19 @@ class Header extends Component {
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav className="center" pills navbar>
                                 <NavItem>
-                                   <NavLink className="nav-link" to="/home">Home</NavLink>
+                                   <NavLink className="nav-link" to="/home">HOME</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link" to="/team">Meet the Team</NavLink>
+                                    <NavLink className="nav-link" to="/team">MEET THE TEAM</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link" to="/menu">Menu</NavLink>
+                                    <NavLink className="nav-link" to="/menu">MENU</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link" to="/location">Location</NavLink>
+                                    <NavLink className="nav-link" to="/location">LOCATION</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link" to="/retail">Retail</NavLink>
+                                    <NavLink className="nav-link" to="/retail">RETAIL</NavLink>
                                 </NavItem>
                             </Nav>
                         </Collapse>

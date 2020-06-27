@@ -1,7 +1,5 @@
 /* used*/
-#standardStyle {
-  background-color: grey;
-}
+
 /* used*/
 .jumbotron {
   margin: 0;
@@ -20,12 +18,13 @@
   color: #00ADB5;
   font-family: 'Courgette', cursive;
 }
-
+/*used*/
 #accordCard {
   background-color:#EEEEEE;
   color:#393E46; 
   font-family: serif;
   border-color: #393E46;
+  padding: 20px;
 }
 
 #headingOne, #headingTwo, #headingThree {
