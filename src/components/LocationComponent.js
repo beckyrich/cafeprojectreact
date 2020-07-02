@@ -1,3 +1,4 @@
+/* need to figure out way around google API key OR how to properly secure
 import React, { Component } from 'react';
 import { withGoogleMap, GoogleMap } from 'react-google-maps';
 
@@ -23,3 +24,4 @@ class Location extends Component {
   }
 };
 export default Location;
+*/
