@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Nav, Navbar, NavbarToggler, Collapse, NavItem, Jumbotron } from 'reactstrap';
-import { NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom';
+import { NavDropdown } from 'react-bootstrap';
 
 class Header extends Component {
 
@@ -40,7 +41,11 @@ class Header extends Component {
                                     <NavLink className="nav-link" to="/team">MEET THE TEAM</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link" to="/menu">MENU</NavLink>
+                                    <NavDropdown title="MENU" id="basic-nav-dropdown">
+                                            <NavDropdown.Item href="/menuhot">Hot Drinks</NavDropdown.Item>
+                                        <NavDropdown.Divider />
+                                            <NavDropdown.Item href="/menucold">Cold Drinks</NavDropdown.Item>
+                                    </NavDropdown>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink className="nav-link" to="/location">LOCATION</NavLink>

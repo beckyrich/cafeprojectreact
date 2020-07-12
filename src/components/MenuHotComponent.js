@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { Card, CardHeader, CardBody, CardImg, CardTitle, CardText } from 'reactstrap';
+import { Card, CardBody, CardImg, CardTitle, CardText } from 'reactstrap';
 
-class Menu extends Component {
+class MenuHot extends Component {
     constructor(props){
         super(props);
         this.state = {
@@ -34,4 +34,4 @@ class Menu extends Component {
     }  
 }
 
-export default Menu; 
+export default MenuHot; 
