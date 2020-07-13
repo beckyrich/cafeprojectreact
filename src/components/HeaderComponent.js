@@ -45,6 +45,8 @@ class Header extends Component {
                                             <NavDropdown.Item href="/menuhot">Hot Drinks</NavDropdown.Item>
                                         <NavDropdown.Divider />
                                             <NavDropdown.Item href="/menucold">Cold Drinks</NavDropdown.Item>
+                                        <NavDropdown.Divider />
+                                            <NavDropdown.Item href="/menufood">Food</NavDropdown.Item>
                                     </NavDropdown>
                                 </NavItem>
                                 <NavItem>

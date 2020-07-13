@@ -6,12 +6,14 @@ import Retail from './RetailComponent';
 import MenuHot from './MenuHotComponent';
 import MenuCold from './MenuColdComponent';
 // import Team from './TeamComponent;';
+import MenuFood from './MenuFoodComponent';
 /*import Location from './LocationComponent';*/
 import { PRODUCTS } from '../shared/products';
 import { HOTDRINKS } from '../shared/hotdrinks';
 import { COLDDRINKS } from '../shared/colddrinks';
-import { TEAMMEMBERS } from '../shared/team';
+import { FOODS } from '../shared/menufood';
 import { Switch, Route, Redirect } from 'react-router-dom';
+
 
 
 class Main extends Component {
@@ -21,7 +23,7 @@ class Main extends Component {
             products: PRODUCTS,
             hotdrinks: HOTDRINKS,
             colddrinks: COLDDRINKS,
-            teammembers: TEAMMEMBERS
+            foods: FOODS
         };
     }
 
@@ -40,6 +42,7 @@ class Main extends Component {
                     <Route exact path='/menuhot' render ={() => <MenuHot hotdrinks={this.state.hotdrinks} />} />
                     <Route exact path='/menucold' render ={() => <MenuCold colddrinks={this.state.colddrinks} />} />
                     {/* <Route exact path='/team' */}
+                    <Route exact path='/menufood' render ={() => <MenuFood foods={this.state.foods} />} />
                     {/*<Route exact path='/location' render ={() => <Location />} />*/}
                     <Route exact path='/retail' render={() => <Retail products={this.state.products}/>} />
                     <Redirect to='/home' />
