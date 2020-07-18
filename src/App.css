@@ -6,7 +6,8 @@
   padding: 30px;
   background-color: #EEEEEE;
   color: #00ADB5; 
-  font-family: 'IM Fell DW Pica', serif;
+  font-family: 'Brush Script MT', serif;
+  font-size: 50px;
 }
 /* used*/
 .center{
@@ -51,6 +52,10 @@
   font-family: serif;
   border: none;
   padding-top: 20px;
+}
+/*used*/
+#backgroundDark {
+  background-color: #393E46;
 }
 
 #cardHomeBtn {

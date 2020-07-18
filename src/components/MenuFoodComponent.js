@@ -13,10 +13,10 @@ class MenuFood extends Component {
         const foodItem = this.props.foods.map(food => {
             return (
                 <div key={food.id} className="col-md-5 m-1">
-                    <Card>
+                    <Card id="cardQF">
                         <CardImg width="100%" src={food.image} alt={food.name} />
                         <CardBody>
-                            <CardTitle>{food.name}</CardTitle>
+                            <CardTitle id="cardTitleQF">{food.name}</CardTitle>
                             <CardText>{food.description}</CardText>
                         </CardBody>
                     </Card>
@@ -25,7 +25,7 @@ class MenuFood extends Component {
         });
 
         return (
-            <div className="container">
+            <div className="container" >
                 <div className="row">
                     {foodItem}
                 </div>

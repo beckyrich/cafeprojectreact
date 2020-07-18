@@ -13,10 +13,10 @@ class MenuHot extends Component {
         const hot = this.props.hotdrinks.map(hotdrink => {
             return (
                 <div key={hotdrink.id} className="col-md-5 m-1">
-                    <Card>
+                    <Card id="cardQF">
                         <CardImg width="100%" src={hotdrink.image} alt={hotdrink.name} />
                         <CardBody>
-                            <CardTitle>{hotdrink.name}</CardTitle>
+                            <CardTitle id="cardTitleQF">{hotdrink.name}</CardTitle>
                             <CardText>{hotdrink.description}</CardText>
                         </CardBody>
                     </Card>
