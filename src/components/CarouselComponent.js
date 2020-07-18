@@ -3,26 +3,26 @@ import {  Carousel, CarouselItem, CarouselControl, CarouselIndicators, CarouselC
 
 const items = [
     {
-        src: "./assets/images/barista.jpg",
+        src: "./assets/images/home/barista.jpg",
         altText: "Barista",
         caption: "Barista",
         captext: "Brewing up something good!"
 
     },
     {
-        src: "./assets/images/inside.jpg",
+        src: "./assets/images/home/inside.jpg",
         altText: "Inside Seating",
         caption: "Inside Seating",
         captext: "Enjoy our spacious inside seating!"
     },
     {
-        src: "./assets/images/outsided.jpg",
+        src: "./assets/images/home/outsided.jpg",
         altText: "Outside Seating",
         caption: "Outside Seating",
         captext: "Get some fresh air on our patio!"
     },
     {
-        src: "./assets/images/icedlatte.jpg",
+        src: "./assets/images/home/icedlatte.jpg",
         altText: "Iced Latte",
         caption: "Refresh with an iced drink!"
     }

@@ -8,7 +8,7 @@ class Coffee extends Component {
            funinfo: [
             {
                 id: 0,
-                image: "./assets/images/caffe_sign.jpg",
+                image: "./assets/images/home/caffe_sign.jpg",
                 name: "neon sign",
                 title: "Coffee Quotes",
                 message: "Everyone should beleive in something. I believe I will have another coffee.",
@@ -17,7 +17,7 @@ class Coffee extends Component {
             },
             {
                 id: 1,
-                image: "/assets/images/coffee_rawbean.jpg",
+                image: "/assets/images/home/coffee_rawbean.jpg",
                 name: "raw coffee bean",
                 title: "Coffee Facts",
                 message: "Did you know that coffee beans are technically seeds! They are the ptis of cherry-like berries. Plus, the berries can be eaten as food!",
