@@ -54,8 +54,20 @@
   padding-top: 20px;
 }
 /*used*/
-#backgroundDark {
-  background-color: #393E46;
+#mainBG {
+  background-color: #00ADB5;
+}
+/*used*/
+.nav-pills .nav-link.active {
+  background-color: #00ADB5!important;
+}
+/*used*/
+.nav-pills .show>.nav-link {
+  background-color: #00ADB5!important;
+}
+/*used*/
+a.dropdown-item {
+  background-color: transparent!important;
 }
 
 #cardHomeBtn {
@@ -97,12 +109,13 @@
 #modalSubmmitBtn {
   background-color: #00ADB5;
 }
-
+/*used*/
 .site-footer {
   padding: 20px 0px;
   background-color: #EEEEEE;
   color: #00ADB5; 
   font-family: 'IM Fell DW Pica', serif;
+  position: relative;
 }
 
 #ftContact {

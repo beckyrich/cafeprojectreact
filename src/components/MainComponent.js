@@ -7,7 +7,7 @@ import MenuHot from './MenuHotComponent';
 import MenuCold from './MenuColdComponent';
 // import Team from './TeamComponent;';
 import MenuFood from './MenuFoodComponent';
-/*import Location from './LocationComponent';*/
+import Location from './LocationComponent';
 import { PRODUCTS } from '../shared/products';
 import { HOTDRINKS } from '../shared/hotdrinks';
 import { COLDDRINKS } from '../shared/colddrinks';
@@ -35,7 +35,7 @@ class Main extends Component {
         }
 
         return(
-            <div id="backgroundDark">
+            <div id="mainBG">
                 <Header />
                 <Switch>
                     <Route path='/home' component={HomePage} />
@@ -43,7 +43,7 @@ class Main extends Component {
                     <Route exact path='/menucold' render ={() => <MenuCold colddrinks={this.state.colddrinks} />} />
                     {/* <Route exact path='/team' */}
                     <Route exact path='/menufood' render ={() => <MenuFood foods={this.state.foods} />} />
-                    {/*<Route exact path='/location' render ={() => <Location />} />*/}
+                    <Route exact path='/location' render ={() => <Location />} />
                     <Route exact path='/retail' render={() => <Retail products={this.state.products}/>} />
                     <Redirect to='/home' />
                 </Switch>

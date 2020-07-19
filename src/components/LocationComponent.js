@@ -1,27 +1,36 @@
-/* need to figure out way around google API key OR how to properly secure
 import React, { Component } from 'react';
-import { withGoogleMap, GoogleMap } from 'react-google-maps';
+import { Card, CardBody, CardImg, CardTitle, CardText } from 'reactstrap';
+import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
 
 class Location extends Component {
+  constructor(props) {
+    super(props);
+  }
+
   render(){
 
-    const GoogleMapLocation = withGoogleMap(props => (
-      <GoogleMap
-        defaultCenter = {{ lat: 47.610144, lng: -122.342551 }}
-        defaultZoom = { 13 } 
-      >
-      </GoogleMap>
-    ));
-
     return(
-      <div>
-        <GoogleMapLocation
-          containerElement={ <div style={{ height: '500px', width: '500px' }}/>}
-          mapElement={ <div style={{ height: '100%' }}/>}
-        />
-      </div>
+        <div style={{position: "relative", height: "500px"}}>
+          <Map 
+            google={this.props.google}
+            zoom={15}
+            style={mapStyles}
+            initialCenter={{ lat: 47.610144, lng: -122.342551 }}
+          >
+            <Marker position={{ lat: 47.610144, lng: -122.342551 }} />
+          </Map>
+          
+        </div>
     );
   }
 };
-export default Location;
-*/
+
+const mapStyles = {
+  position: 'relative', 
+  width: '100%',
+  height: '500px',
+};
+
+export default GoogleApiWrapper({
+  apiKey: 'AIzaSyCzAQENrT-cAfzhOfDkWPhL1X8NowRXDf8'
+})(Location);

@@ -8,7 +8,7 @@ function Home(props) {
 
     return (
         <React.Fragment>
-             <div className="container-fluid p-0 m-0">
+            <div className="container-fluid p-0 m-0">
                 <img className="img-fluid" src="./assets/images/home/home_bg_nav.jpg" alt="coffee"/>
             </div>
             <div className="container-fluid p-0 m-0" id="accordCard">
