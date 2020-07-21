@@ -41,6 +41,12 @@ class Header extends Component {
                                     <NavLink className="nav-link" to="/team">MEET THE TEAM</NavLink>
                                 </NavItem>
                                 <NavItem>
+                                    <NavLink className="nav-link" to="/location">LOCATION</NavLink>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLink className="nav-link" to="/retail">RETAIL</NavLink>
+                                </NavItem>
+                                <NavItem>
                                     <NavDropdown title="MENU" id="basic-nav-dropdown">
                                             <NavDropdown.Item href="/menuhot">Hot Drinks</NavDropdown.Item>
                                         <NavDropdown.Divider />
@@ -48,12 +54,6 @@ class Header extends Component {
                                         <NavDropdown.Divider />
                                             <NavDropdown.Item href="/menufood">Food</NavDropdown.Item>
                                     </NavDropdown>
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink className="nav-link" to="/location">LOCATION</NavLink>
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink className="nav-link" to="/retail">RETAIL</NavLink>
                                 </NavItem>
                             </Nav>
                         </Collapse>

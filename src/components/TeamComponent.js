@@ -14,10 +14,10 @@ class Team extends Component {
             const team = this.props.teamMembers.map(teamMember => {
                 return (
                     <div key={teamMember.id} className="col-md-5 m-1">
-                        <Card id="tmCard">
+                        <Card id="cardQF">
                             <CardImg width="100%" src={teamMember.image}  alt={teamMember.name}/>
                             <CardBody>
-                                <CardTitle>{teamMember.name}</CardTitle>
+                                <CardTitle  id="cardTitleQF">{teamMember.name}</CardTitle>
                                 <CardText>{teamMember.description}</CardText>
                             </CardBody>
                         </Card>

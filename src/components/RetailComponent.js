@@ -13,13 +13,13 @@ class Retail extends Component {
             const retail = this.props.products.map(product => {
                 return (
                     <div key={product.id} className="col-md-5 m-1">
-                        <Card>
+                        <Card id="cardQF">
                             <CardImg width="100%" src={product.image} alt={product.name} />
                             <CardBody>
-                                <CardTitle>{product.name}</CardTitle>
+                                <CardTitle id="cardTitleQF">{product.name}</CardTitle>
                                 <CardSubtitle>{product.style}</CardSubtitle>
                                 <CardText>{product.description}</CardText>
-                                <Button>Buy</Button>
+                                <Button style={{backgroundColor:"#393E46", color: "#EEEEEE"}} type="submit" block>Buy</Button>
                             </CardBody>
                         </Card>
                     </div>

@@ -10,7 +10,7 @@ class Accordion extends Component {
             cards: [
                 {
                     id: 0,
-                    message: "Tre Caffè opened its doors in Spring 2020. This little gem is located in the iconic Pike Place Market in Seattle, Washington. We would love the chance to welcome you in person, and for you to experiene first hand our tasty food and energizing coffees, teas, and drinks!",
+                    message: "Tre Caffè opened its doors in Spring 2020. This little gem is located in the iconic Pike Place Market in Seattle, Washington. We would love the chance to welcome you in person, and for you to experiene first hand our tasty food and energizing beverages!",
                     header: "Welcome to Tre Caffè!"
                 },
                 {
@@ -39,7 +39,7 @@ class Accordion extends Component {
                {cards.map(index => {
                    return(
                        <Card id="accordCard" key={index.id}>
-                           <CardHeader id="headingTwo" onClick={this.toggle} data-event={index.id}>{index.header}</CardHeader>
+                           <CardHeader id="heading" onClick={this.toggle} data-event={index.id}>{index.header}</CardHeader>
                            <Collapse isOpen={collapse === index.id}>
                                 <CardBody>{index.message}</CardBody>
                            </Collapse>

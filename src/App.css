@@ -1,6 +1,4 @@
 /* used*/
-
-/* used*/
 .jumbotron {
   margin: 0;
   padding: 30px;
@@ -27,20 +25,12 @@
   border-color: #393E46;
   padding: 20px;
 }
-
-#headingOne, #headingTwo, #headingThree {
+/*used*/
+#heading {
   background-color: #00ADB5;
+  font-family: 'Courgette', cursive;
 }
 
-#feedbackBtn {
-  background-color: #00ADB5;
-  color: #EEEEEE;
-}
-
-#accordCardBtn {
-  color: #EEEEEE;
-  background-color: #393E46;
-}
 /*used*/
 #cardTitleQF {
   font-family: 'Courgette', cursive;
@@ -69,46 +59,21 @@
 a.dropdown-item {
   background-color: transparent!important;
 }
-
-#cardHomeBtn {
+/*used*/
+#form
+{
+  color: #393E46;
   font-family: serif;
+  border: none;
+  padding: 20px;
 }
-
-#cardOver {
-  background-color: #EEEEEE;
-}
-
-#toTop {
-  color: #00ADB5; 
-  font-family: 'IM Fell DW Pica', serif;
-
-}
-#modalInitBtn {
+/*used*/
+#customBtn {
   font-family: serif;
-}
-
-#modalContactForm {
+  color:  #EEEEEE;
   background-color: #393E46;
-  padding: 20px 0;
-
 }
 
-#modalContactFormLabel {
-  background-color: #EEEEEE;
-  color: #00ADB5; 
-  font-family: 'IM Fell DW Pica', serif;
-
-}
-
-#modalContactBody {
-  background-color: #00ADB5;
-  color: #222831;
-  font-family: 'IM Fell DW Pica', serif;
-}
-
-#modalSubmmitBtn {
-  background-color: #00ADB5;
-}
 /*used*/
 .site-footer {
   padding: 20px 0px;
@@ -117,42 +82,8 @@ a.dropdown-item {
   font-family: 'IM Fell DW Pica', serif;
   position: relative;
 }
-
+/*used*/
 #ftContact {
   color:#222831;
   font-family: serif;
 }
-
-.map-container-4{
-  overflow:hidden;
-  padding-bottom:56.25%;
-  position:relative;
-  height:0;
-  }
-.map-container-4 iframe{
-  left:0;
-  top:0;
-  height:100%;
-  width:100%;
-  position:absolute;
-  }
-  
-.card-header1{
-  background-color: rgb(105,105,105);
-  color:white;
-}
-
-.card-header2 {
-  background-color:rgb(105,105,105);
-  color:white;
-}
-
-.card-header3 {
-  background-color:rgb(105,105,105);
-  color:white;
-}
-
-.card-header4 {
-  background-color:rgb(105,105,105);
-  color:white;
-}    
