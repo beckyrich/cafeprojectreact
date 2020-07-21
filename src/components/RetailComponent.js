@@ -12,8 +12,8 @@ class Retail extends Component {
         render() {
             const retail = this.props.products.map(product => {
                 return (
-                    <div key={product.id} className="col-md-5 m-1">
-                        <Card id="cardQF">
+                    <div key={product.id} className="col-md-6">
+                        <Card className="center" id="cardQF">
                             <CardImg width="100%" src={product.image} alt={product.name} />
                             <CardBody>
                                 <CardTitle id="cardTitleQF">{product.name}</CardTitle>

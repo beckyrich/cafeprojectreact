@@ -25,7 +25,7 @@ class Header extends Component {
             <React.Fragment>
                 <Jumbotron fluid>
                     <div className="container center">
-                        <h1 >Tre Caffè</h1>
+                        <p>Tre Caffè</p>
                         <p className="lead">Get Up! Get Coffee! Be Happy!</p>
                     </div>
                 </Jumbotron>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Card, CardBody, CardImg, CardTitle, CardText } from 'reactstrap';
+import { Card, CardBody, CardImg, CardTitle, CardText, CardGroup } from 'reactstrap';
 
 class MenuFood extends Component {
     constructor(props){
@@ -12,8 +12,8 @@ class MenuFood extends Component {
     render() {
         const foodItem = this.props.foods.map(food => {
             return (
-                <div key={food.id} className="col-md-5 m-1">
-                    <Card id="cardQF">
+                <div key={food.id} className="col-md-6">
+                    <Card className="center" id="cardQF">
                         <CardImg width="100%" src={food.image} alt={food.name} />
                         <CardBody>
                             <CardTitle id="cardTitleQF">{food.name}</CardTitle>
@@ -25,7 +25,7 @@ class MenuFood extends Component {
         });
 
         return (
-            <div className="container" >
+            <div className="container">
                 <div className="row">
                     {foodItem}
                 </div>
