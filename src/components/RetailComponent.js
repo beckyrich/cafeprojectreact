@@ -19,7 +19,7 @@ class Retail extends Component {
                                 <CardTitle id="cardTitleQF">{product.name}</CardTitle>
                                 <CardSubtitle>{product.style}</CardSubtitle>
                                 <CardText>{product.description}</CardText>
-                                <Button style={{backgroundColor:"#393E46", color: "#EEEEEE"}} type="submit" block>Buy</Button>
+                                <Button style={{backgroundColor:"#393E46", color: "#EEEEEE"}} type="submit" size="lg" block>Buy</Button>
                             </CardBody>
                         </Card>
                     </div>
