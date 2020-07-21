@@ -11,11 +11,11 @@ class Team extends Component {
     }
 
         render() {
-            const team = this.state.teamMembers.map(teamMember => {
+            const team = this.props.teamMembers.map(teamMember => {
                 return (
                     <div key={teamMember.id} className="col-md-5 m-1">
-                        <Card id="teamCard">
-                            <CardImg width="100%" src={teamMember.image} alt={teamMember.name} />
+                        <Card id="tmCard">
+                            <CardImg width="100%" src={teamMember.image}  alt={teamMember.name}/>
                             <CardBody>
                                 <CardTitle>{teamMember.name}</CardTitle>
                                 <CardText>{teamMember.description}</CardText>

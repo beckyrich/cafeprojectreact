@@ -5,7 +5,7 @@ import Home from './HomeComponent';
 import Retail from './RetailComponent';
 import MenuHot from './MenuHotComponent';
 import MenuCold from './MenuColdComponent';
-import Team from './TeamComponent;';
+import Team from './TeamComponent';
 import MenuFood from './MenuFoodComponent';
 import Location from './LocationComponent';
 import { PRODUCTS } from '../shared/products';
