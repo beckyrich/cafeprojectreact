@@ -5,7 +5,9 @@
   background-color: #EEEEEE;
   color: #00ADB5; 
   font-family: 'Brush Script MT', serif;
-  font-size: 50px;
+  font-size: 80px;
+  line-height: 50%;
+
 }
 /* used*/
 .center{
@@ -41,7 +43,9 @@
   color: #393E46;
   font-family: serif;
   border: none;
-  padding-top: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 /*used*/
 #mainBG {

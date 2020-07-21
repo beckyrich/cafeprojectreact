@@ -12,8 +12,8 @@ class MenuCold extends Component {
     render() {
         const cold = this.props.colddrinks.map(colddrink => {
             return (
-                <div key={colddrink.id} className="col-md-5 m-1">
-                    <Card id="cardQF">
+                <div key={colddrink.id} className="col-md-6">
+                    <Card className="center" id="cardQF">
                         <CardImg width="100%" src={colddrink.image} alt={colddrink.name} />
                         <CardBody>
                             <CardTitle id="cardTitleQF">{colddrink.name}</CardTitle>
