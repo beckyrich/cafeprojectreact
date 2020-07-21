@@ -2,7 +2,7 @@ export const PRODUCTS = [
     {
         id: 0,
         name: 'Morning Blend',
-        image: 'assets/images/comingsoon.jpeg',
+        image: 'assets/images/retail/lightground.png',
         style: 'Ground',
         size: '1 lb',
         description: "Start your morning off right with this medium roast that will carry you through your day."
@@ -10,7 +10,7 @@ export const PRODUCTS = [
     {
         id: 1,
         name: 'Morning Blend',
-        image: 'assets/images/comingsoon.jpeg',
+        image: 'assets/images/retail/lightwhole.png',
         style: 'Whole Bean',
         size: '1 lb',
         description: "Start your morning off right with this medium roast that will carry you through your day."
@@ -18,7 +18,7 @@ export const PRODUCTS = [
     {
         id: 2,
         name: 'Brunch Blend',
-        image: 'assets/images/comingsoon.jpeg',
+        image: 'assets/images/retail/brunchground.png',
         style: 'Ground',
         size: '1 lb',
         description: "Need an afternoon pick me up? This will get you through the afternoon slump."
@@ -26,7 +26,7 @@ export const PRODUCTS = [
     {
         id: 3,
         name: 'Brunch Blend',
-        image: 'assets/images/comingsoon.jpeg',
+        image: 'assets/images/retail/brunchwhole.png',
         style: 'Whole Bean',
         size: '1 lb',
         description: "Need an afternoon pick me up? This will get you through the afternoon slump."
@@ -34,7 +34,7 @@ export const PRODUCTS = [
     {
         id: 4,
         name: 'Dark Roast',
-        image: 'assets/images/comingsoon.jpeg',
+        image: 'assets/images/retail/darkground.png',
         style: 'Ground',
         size: '1 lb',
         description: "Let this dark roast boost your mood and spirits with an aroma and taste that won't disappoint."
@@ -42,15 +42,15 @@ export const PRODUCTS = [
     {
         id: 5,
         name: 'Dark Roast',
-        image: 'assets/images/comingsoon.jpeg',
-        style: 'Ground',
+        image: 'assets/images/retail/darkwhole.png',
+        style: 'Whole Bean',
         size: '1 lb',
         description: "Let this dark roast boost your mood and spirits with an aroma and taste that won't disappoint."
     },
     {
         id: 6,
         name: 'Tre Caffè Apparel',
-        image: 'assets/images/comingsoon.jpeg',
+        image: 'assets/images/retail/hoodie.png',
         style: 'Hoodie',
         size: 'Various',
         description: "Show us your love for Tre Caffè!"
@@ -58,7 +58,7 @@ export const PRODUCTS = [
     {
         id: 7,
         name: 'Tre Caffè',
-        image: 'assets/images/comingsoon.jpeg',
+        image: 'assets/images/retail/tremug.png',
         style: 'Coffee Mug',
         size: 'large',
         description: "Let everyone know why you love your coffee so much."
@@ -66,7 +66,7 @@ export const PRODUCTS = [
     {
         id: 8,
         name: 'I love Coffee',
-        image: 'assets/images/comingsoon.jpeg',
+        image: 'assets/images/retail/lovecoffee.png',
         style: 'Coffee Mug',
         size: 'large',
         description: "Because everyone knows coffee is life."
