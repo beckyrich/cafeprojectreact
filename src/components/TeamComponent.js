@@ -25,11 +25,16 @@ class Team extends Component {
                 );
             });
                 return (
-                    <div className="container">
-                        <div className="row">
-                            {team}
+                    <React.Fragment>
+                        <div className="container-fluid">
+                            <div className="row">
+                                {team}
+                            </div>
                         </div>
-                    </div>
+                        <div className="container-fluid center p-1 mb-2">
+                            <img className="img-fluid" src="./assets/images/team/passion.png" alt="quote" />
+                        </div>
+                    </React.Fragment>
         );
     }
 }
