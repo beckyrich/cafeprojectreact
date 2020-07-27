@@ -31,5 +31,5 @@ const mapStyles = {
 };
 
 export default GoogleApiWrapper({
-  apiKey: 'AIzaSyCzAQENrT-cAfzhOfDkWPhL1X8NowRXDf8'
+  apiKey: process.env.REACT_APP_GOOGLE_API_KEY
 })(Location);

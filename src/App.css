@@ -1,4 +1,4 @@
-/* used*/
+
 .jumbotron {
   margin: 0;
   padding: 30px;
@@ -9,17 +9,17 @@
   line-height: 50%;
 
 }
-/* used*/
+
 .center{
   margin: auto;
   text-align: center;
 }
-/* used*/
+
 .textTeal {
   color: #00ADB5;
   font-family: 'Courgette', cursive;
 }
-/*used*/
+
 #accordCard {
   background-color:#EEEEEE;
   color:#393E46; 
@@ -27,17 +27,16 @@
   border-color: #393E46;
   padding: 20px;
 }
-/*used*/
+
 #heading {
   background-color: #00ADB5;
   font-family: 'Courgette', cursive;
 }
 
-/*used*/
 #cardTitleQF {
   font-family: 'Courgette', cursive;
 }
-/*used*/
+
 #cardQF {
   background-color: #EEEEEE;
   color: #393E46;
@@ -47,23 +46,23 @@
   margin-bottom: 20px;
   margin-top: 20px;
 }
-/*used*/
+
 #mainBG {
   background-color: #00ADB5;
 }
-/*used*/
+
 .nav-pills .nav-link.active {
   background-color: #00ADB5!important;
 }
-/*used*/
+
 .nav-pills .show>.nav-link {
   background-color: #00ADB5!important;
 }
-/*used*/
+
 a.dropdown-item {
   background-color: transparent!important;
 }
-/*used*/
+
 #form
 {
   color: #393E46;
@@ -71,14 +70,14 @@ a.dropdown-item {
   border: none;
   padding: 20px;
 }
-/*used*/
+
 #customBtn {
   font-family: serif;
   color:  #EEEEEE;
   background-color: #393E46;
 }
 
-/*used*/
+
 .site-footer {
   padding: 20px 0px;
   background-color: #EEEEEE;
@@ -86,7 +85,7 @@ a.dropdown-item {
   font-family: 'IM Fell DW Pica', serif;
   position: relative;
 }
-/*used*/
+
 #ftContact {
   color:#222831;
   font-family: serif;
