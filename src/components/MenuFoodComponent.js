@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Card, CardBody, CardImg, CardTitle, CardText, CardGroup } from 'reactstrap';
+import { Card, CardBody, CardImg, CardTitle, CardText } from 'reactstrap';
 
 class MenuFood extends Component {
     constructor(props){

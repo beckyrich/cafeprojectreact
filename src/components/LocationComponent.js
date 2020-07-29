@@ -2,10 +2,7 @@ import React, { Component } from 'react';
 import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
 
 class Location extends Component {
-  constructor(props) {
-    super(props);
-  }
-
+  
   render(){
 
     return(
