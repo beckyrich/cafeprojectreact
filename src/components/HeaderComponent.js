@@ -55,6 +55,9 @@ class Header extends Component {
                                             <NavDropdown.Item href="/menufood">Food</NavDropdown.Item>
                                     </NavDropdown>
                                 </NavItem>
+                                <NavItem>
+                                    <NavLink className="nav-link" to="/cart">MY CART</NavLink>
+                                </NavItem>
                             </Nav>
                         </Collapse>
                     </div>
