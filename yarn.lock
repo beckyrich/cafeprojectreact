@@ -10210,8 +10210,8 @@ typeface-courgette@^0.0.72:
   resolved "https://registry.yarnpkg.com/typeface-courgette/-/typeface-courgette-0.0.72.tgz#d181642fc4ddcef2824b7733c7ee998f2dbfe41f"
 
 ua-parser-js@^0.7.18:
-  version "0.7.21"
-  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.21.tgz#853cf9ce93f642f67174273cc34565ae6f308777"
+  version "0.7.28"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.28.tgz#8ba04e653f35ce210239c64661685bf9121dec31"
 
 uglify-js@^3.1.4:
   version "3.7.1"
